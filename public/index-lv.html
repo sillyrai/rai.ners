@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>rai.ners</title>
+        <link rel="icon" type="image/x-icon" href="assets/logo-tiny.svg">
+        <script src="js/tailwind.config.js"></script>
+    </head>
+    
+    <body class="bg-black h-screen w-screen text-white font-mono bg-[url('assets/Background.svg')] max-md:bg-cover">
+        <nav class="p-16 pb-4 flex">
+            <img src="assets/logo-full.svg">
+            <div class="ml-auto flex">
+
+                <a href="/index-lv.html" class="bg-primary text-black m-auto pl-2 pr-2 p-1 font-bold text-xl mr-1">LV</a>
+                <a href="/" class="bg-primary text-black m-auto pl-2 pr-2 p-1 font-bold text-xl mr-16">EN</a>
+                <a href="mailto:rainersbc@gmail.com" class="bg-primary text-black m-auto pl-2 pr-2 p-1 font-bold text-xl">SAZINĀTIES</a>
+            </div>
+        </nav>
+
+        <div id="container" class="flex max-md:flex-col p-16 h-[80vh] transition-opacity ease-in duration-300 opacity-0">
+            <div id="left" class="w-1/3 max-md:w-full h-full text-left max-md:order-2">
+                <p class="text-3xl">&#123;<a class="text-primary">Par mani</a>&#125;</p>
+                <p class="text-lg mt-4">
+                    Man ir <a id="age" class="text-primary">18</a> gadi, dzīvoju <a class="text-primary">Latvijā</a>. Pagaidām mācos <a class="text-primary">Rīgas Tehniskā koledžā (prof. vsk.)</a>.
+                    <br><br>
+                    Ar programmēšanu nodarbojos jau kopš 10 gadu vecuma, jo datori mani vienmēr ir interesējuši un man vienmēr ir paticis radīt pašam savas lietas.
+                    <br><br>
+                    Es galvenokārt specializējos tādās valodās kā<a class="text-primary">C#</a>, <a class="text-primary">Lua</a>, <a class="text-primary">TypeScript</a>/<a class="text-primary">JavaScript</a>, <a class="text-primary">HTML</a> un <a class="text-primary">CSS</a> (tomēr es labprātāk izmantoju <a class="text-primary">tailwindcss</a>), lai gan man ir zināšanas arī dažās citās valodās, tās nav tik labas kā iepriekš minētajās.
+                    <br><br>
+                    Es ātri mācos, tāpēc jaunu tehnoloģiju apgūšana man parasti nesagādā grūtības.
+                    <br><br>
+                    Man patīk arī projektēt, mana galvenā izmantotā programmatūra projektēšanai ir <a class="text-primary">Figma</a> (arī šī mājaslapa tika veidota Figma programmā, pirms tā tika pārvērsta realitātē), tomēr es uzskatu, ka man vēl ir vieta pilnveidošanai, pirms es to varētu darīt profesionāli.
+                </p>
+            </div>
+            <div id="middle" class="flex w-1/3 h-full max-md:w-full max-md:order-1 max-md:mb-8">
+                <div class="m-auto text-center">
+                    <p class="text-6xl max-md:text-4xl">Sveiki, esmu <a class="text-primary">Rainers</a>!</p>
+                    <p class="text-3xl max-md:text-2xl">Es esmu <a id="qualification" class="text-primary">########<a id="cube" class="animate-pulseFully">█</a>!</a></p>
+
+                    <div class="flex mt-2 w-full">
+                        <div class="m-auto flex">
+                            <a href="https://github.com/sillyrai" class="m-2"><img src="assets/icons/GitHub.svg"></a>
+                            <a href="mailto:rainersbc@gmail.com" class="m-2"><img src="assets/icons/Email.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="right" class="w-1/3 max-md:w-full h-full text-right max-md:order-4 max-md:mt-[50vh]">
+                <p class="text-3xl">&#123;<a class="text-primary">Projekti</a>&#125;</p>
+                <p class="text-lg mt-4">
+                    <a class="text-primary text-3xl">Proto</a><br>
+                    Discord bots, kas ir pievienots vairāk nekā 4300 atsevišķiem serveriem un kuru kopumā ir izmantojuši vairāk nekā 6600 cilvēku.
+                    <br>
+                    <a href="https://github.com/sillyrai/" class="text-primary">[GitHub]</a>
+                </p>
+
+                <p class="text-lg mt-4">
+                    <a class="text-primary text-3xl">Nisemakine.com</a><br>
+                    Tīmekļa vietne Turcijas uzņēmumam Nisemakine, mans draugs no uzņēmuma man pasūtīja izveidot viņiem jaunu tīmekļa vietni.
+                    <br>
+                    <a href="https://github.com/nisemakine/nisemakine.github.io" class="text-primary">[GitHub]</a>
+                </p>
+
+                <p class="text-lg mt-4">
+                    <a class="text-primary text-3xl">Šī tīmekļa vietne</a><br>
+                    Jā! tīmekļa vietne, kurā atrodaties tieši tagad! Lai gan tā ir vienkārša, tā ir arī noderīga.
+                    <br>
+                    <a href="https://github.com/sillyrai/rai.ners" class="text-primary">[GitHub]</a>
+                </p>
+
+                <p class="text-lg mt-4">
+                    <a class="text-primary text-3xl">Un daudzi citi projekti!</a><br>
+                    Daudzi mazāki un vienkāršāki projekti, ko esmu paveicis, ir atrodami manā <a href="https://github.com/sillyrai/rai.ners" class="text-primary">GitHub</a>
+                    <br>
+                </p>
+            </div>
+        </div>
+    </body>
+
+    <script src="js/main-lv.js"></script>
+</html>
